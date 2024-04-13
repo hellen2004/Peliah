@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+}
+ul{
+    list-style: none;
+    color: black;
+    font-size: 20px;
+}
+header h2{
+    font-size: 32px;
+}
+.nav-links ul{
+    display: flex;
+    gap: 15px;
+    color:black;
+}
+header h2 span{
+    color: orange;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.navbar-link{
+    color: darkorange;
+    gap: 20px;
+    display: flex;
+}
+.homepage{
+    background-image: url(https://media.istockphoto.com/id/1096665236/photo/sweet-corn-red-bell-pepper-green-peas-delicious-healthy-risot.webp?b=1&s=170667a&w=0&k=20&c=GmVtkcuUMg9sUIxbkSGGSFTZ2GccirXo1zrfGiUlBNQ=);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+    padding-left: 24px;
+}
+.homepage p{
+    width: 20%;
+    font-size: 16px;
+}
+.homepage h1{
+    font-size: 48px;
+}
+.home-buttons .order-1{
+    background-color: #ff7f00;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-top: 38px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+    color: white;
+}
+.home-buttons .order-1.order-1:hover{
+    background: white;
+}
+.home-buttons .order-2{
+    border-color: transparent;
+    color: orange;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border: 2px solid orange;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    display: inline-block
+}
+.home-buttons .order-2:hover{
+    background-color: white;
+}
+.about-button .order-3{
+    background-color: #ff7f00;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-top: 38px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+    color: white;
+}
+.home-buttons .order-3.order-3:hover{
+    background: white;
+}
+p{
+    font-size: 20px;
+}
+main>section{
+    height: auto;
+}
+main>section>.about{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+    margin-top: 5%;
+}
+main>section> .about>button{
+  background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 8px 5px;
+    border-style: none;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.card-content1{
+    background-color: gainsboro;
+    margin: 2%;
+    width: 250px;
+    height: 250px ;
+    padding:10%;
+    border-radius: 10px;
+
+}
+.card-content1:hover{
+    background-color: #ff7f00;
+}
+.card-content2{
+    background-color: gainsboro;
+    margin: 2%;
+    width: 250px;
+    height: 250px;
+    padding: 10%;
+    border-radius: 20px;
+}
+.card-content2:hover{
+    background-color: #ff7f00;
+}
+.card-content3{
+    background-color: gainsboro;
+    margin: 2%;
+    width: 250px;
+    height: 250px;
+    padding: 10%;
+    border-radius: 20%;
+    justify-content: center;
+}
+.card-content3:hover{
+    background-color: #ff7f00;
+}
+
+#Menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+}
+#Menu .food{
+    text-align: center;
+}
+.foods{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card-menu {
+    width: 240px;
+    display: flex;
+}
+
+#about {
+    display: flex;
+    gap: 4rem;
+    padding: 5%;
+}
+
+#our-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.ourservice{
+    text-align: center ;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.89rem;
+    background-color: gainsboro;
+    padding: 2rem 1.25rem;
+    text-align: center;
+    width: 240px;
+    color: white;
+    align-items: center;
+    border-radius: 5%;
+
+}
+.card:hover{
+    background-color: #ff7f00;
+    color: black;
+}
+.icon-image {
+    background-color: gray;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    gap: 1rem; 
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    flex-direction: column;
+}
+.food{
+    text-align: center; 
+}
+button{
+    background-color: #ff7f00;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-style: none;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: flex-end;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.reviewsection{
+    flex-direction: row;
+    display: flex;
+    gap: 50px;
+    padding: 2rem 1.25;
+}
+.review-section{
+    gap: 5px;
+}
